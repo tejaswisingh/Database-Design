@@ -1,0 +1,313 @@
+--------------------------CONTINENTS_TABLE------------------------------------------
+
+insert into CONTINENTS values('NorthAmerica');
+
+
+--------------------------COUNTRIES_TABLE------------------------------------------
+
+insert into COUNTRIES values('Mexico', 'MexicoCity', 'DistritoFederal',
+'NorthAmerica');
+insert into COUNTRIES values('Canada', 'Ottawa', 'Ontario', 'NorthAmerica');
+insert into COUNTRIES values('UnitedStates', 'Washington', 'DistrictOfColumbia',
+'NorthAmerica');
+
+
+--------------------------STATE_TABLE------------------------------------------
+
+insert into STATES values('Alabama', 'UnitedStates', 'Montgomery');
+insert into STATES values('Alaska', 'UnitedStates', 'Juneau');
+insert into STATES values('Arizona', 'UnitedStates', 'Phoenix');
+insert into STATES values('Arkansas', 'UnitedStates', 'LittleRock');
+insert into STATES values('California', 'UnitedStates', 'Sacramento');
+insert into STATES values('Colorado', 'UnitedStates', 'Denver');
+insert into STATES values('Connecticut', 'UnitedStates', 'Hartford');
+insert into STATES values('Delaware', 'UnitedStates', 'Dover');
+insert into STATES values('DistrictOfColumbia', 'UnitedStates', 'Washington');
+insert into STATES values('Florida', 'UnitedStates', 'Tallahassee');
+insert into STATES values('Georgia', 'UnitedStates', 'Atlanta');
+insert into STATES values('Hawaii', 'UnitedStates', 'Honolulu');
+insert into STATES values('Idaho', 'UnitedStates', 'Boise');
+insert into STATES values('Illinois', 'UnitedStates', 'Springfield');
+insert into STATES values('Indiana', 'UnitedStates', 'Indianapolis');
+insert into STATES values('Texas', 'UnitedStates', 'Austin');
+insert into STATES values('Iowa', 'UnitedStates', 'Des Moines');
+insert into STATES values('Kansas', 'UnitedStates', 'Topeka');
+insert into STATES values('Kentucky', 'UnitedStates', 'Frankfort');
+insert into STATES values('Louisiana', 'UnitedStates', 'Baton Rouge');
+insert into STATES values('Maine', 'UnitedStates', 'Augusta');
+insert into STATES values('Maryland', 'UnitedStates', 'Annapolis');
+insert into STATES values('Massachusetts', 'UnitedStates', 'Boston');
+insert into STATES values('Michigan', 'UnitedStates', 'Lansing');
+insert into STATES values('Minnesota', 'UnitedStates', 'Saint Paul');
+insert into STATES values('Mississippi', 'UnitedStates', 'Jackson');
+insert into STATES values('Missouri', 'UnitedStates', 'Jefferson City');
+insert into STATES values('Montana', 'UnitedStates', 'Helena');
+insert into STATES values('Nebraska', 'UnitedStates', 'Lincoln');
+insert into STATES values('Nevada', 'UnitedStates', 'Carson City');
+insert into STATES values('New Hampshire', 'UnitedStates', 'Concord');
+insert into STATES values('New Jersey', 'UnitedStates', 'Trenton');
+insert into STATES values('New Mexico', 'UnitedStates', 'Santa Fe');
+insert into STATES values('New York', 'UnitedStates', 'Albany');
+insert into STATES values('North Carolina', 'UnitedStates', 'Raleigh');
+insert into STATES values('North Dakota', 'UnitedStates', 'Bismarck');
+insert into STATES values('Ohio', 'UnitedStates', 'Columbus');
+insert into STATES values('Oklahoma', 'UnitedStates', 'Oklahoma City');
+insert into STATES values('Oregon', 'UnitedStates', 'Salem');
+insert into STATES values('Pennsylvania', 'UnitedStates', 'Harrisburg');
+insert into STATES values('Rhode Island', 'UnitedStates', 'Providence');
+insert into STATES values('South Carolina', 'UnitedStates', 'Columbia');
+insert into STATES values('South Dakota', 'UnitedStates', 'Pierre');
+insert into STATES values('Tennessee', 'UnitedStates', 'Nashville');
+insert into STATES values('Utah', 'UnitedStates', 'Salt Lake City');
+insert into STATES values('Vermont', 'UnitedStates', 'Montpelier');
+insert into STATES values('Virginia', 'UnitedStates', 'Richmond');
+insert into STATES values('Washington', 'UnitedStates', 'Olympia');
+insert into STATES values('West Virginia', 'UnitedStates', 'Charleston');
+insert into STATES values('Wisconsin', 'UnitedStates', 'Madison');
+insert into STATES values('Wyoming', 'UnitedStates', 'Cheyenne');
+
+insert into STATES values('BritishColumbia', 'Canada', 'Victoria');
+insert into STATES values('Alberta', 'Canada', 'Edmonton');
+insert into STATES values('Saskatchewan', 'Canada', 'Regina');
+insert into STATES values('Manitoba', 'Canada', 'Winnipeg');
+insert into STATES values('Ontario', 'Canada', 'Toronto');
+insert into STATES values('Quebec', 'Canada', 'Quebec City');
+insert into STATES values('Yukon', 'Canada', 'Whitehorse');
+
+insert into STATES values('Chihuahua', 'Mexico', 'Chihuahua');
+insert into STATES values('Sonora', 'Mexico', 'Hermosillo');
+insert into STATES values('NuevoLeon', 'Mexico', 'Monterrey');
+insert into STATES values('Coahuila', 'Mexico', 'Saltillo');
+insert into STATES values('Tamaulipas', 'Mexico', 'Ciudad Victoria');
+insert into STATES values('Aguascalientes', 'Mexico', 'Aguascalientes');
+insert into STATES values('Baja California', 'Mexico', 'Mexicali');
+insert into STATES values('Baja California Sur', 'Mexico', 'La Paz');
+insert into STATES values('Campeche', 'Mexico', 'Campeche');
+insert into STATES values('Chiapas', 'Mexico', 'Tuxtla Gutiérrez');
+insert into STATES values('Colima', 'Mexico', 'Colima');
+insert into STATES values('Durango', 'Mexico', 'Durango');
+insert into STATES values('Guanajuato', 'Mexico', 'Guanajuato');
+insert into STATES values('Guerrero', 'Mexico', 'Chilpancingo');
+insert into STATES values('Hidalgo', 'Mexico', 'Pachuca');
+insert into STATES values('Jalisco', 'Mexico', 'Guadalajara');
+insert into STATES values('State of México', 'Mexico', 'Toluca');
+insert into STATES values('Michoacán', 'Mexico', 'Morelia');
+insert into STATES values('Morelos', 'Mexico', 'Cuernavaca');
+insert into STATES values('Nayarit', 'Mexico', 'Tepic');
+insert into STATES values('Oaxaca', 'Mexico', 'Oaxaca');
+insert into STATES values('Puebla', 'Mexico', 'Puebla');
+insert into STATES values('Querétaro', 'Mexico', 'Querétaro');
+insert into STATES values('Quintana Roo', 'Mexico', 'Chetumal');
+insert into STATES values('San Luis Potosí', 'Mexico', 'San Luis Potosí');
+insert into STATES values('Sinaloa', 'Mexico', 'Culiacán');
+insert into STATES values('Tabasco', 'Mexico', 'Villahermosa');
+insert into STATES values('Tlaxcala', 'Mexico', 'Tlaxcala');
+insert into STATES values('Veracruz', 'Mexico', 'Xalapa');
+insert into STATES values('Yucatán', 'Mexico', 'Mérida');
+insert into STATES values('Zacatecas', 'Mexico', 'Zacatecas');
+
+
+
+
+
+--------------------------C_NEIGHBOURS_TABLE------------------------------------------
+
+insert into C_NEIGHBOURS values('Canada', 'UnitedStates');
+insert into C_NEIGHBOURS values('Mexico', 'UnitedStates');
+insert into C_NEIGHBOURS values('UnitedStates', 'Canada');
+insert into C_NEIGHBOURS values('UnitedStates', 'Mexico');
+
+--------------------------C_POP_HIST_TABLE------------------------------------------
+
+insert into C_POP_HIST values('Canada', 1990, 27296860);
+insert into C_POP_HIST values('Canada', 2000, 31902268);
+insert into C_POP_HIST values('Canada', 2007, 33212696);
+insert into C_POP_HIST values('Mexico', 1990, 84540000);
+insert into C_POP_HIST values('Mexico', 2000, 103400165);
+insert into C_POP_HIST values('Mexico', 2007, 109955400);
+insert into C_POP_HIST values('UnitedStates', 1990, 253498149);
+insert into C_POP_HIST values('UnitedStates', 2000, 281421906);
+insert into C_POP_HIST values('UnitedStates', 2007, 301621157);
+
+--------------------------CITIES_TABLE------------------------------------------
+
+insert into CITIES values('Montgomery', 'Alabama', 197014, -86.32, 32.40);
+insert into CITIES values('Juneau', 'Alaska', 30191, -134.53, 58.36);
+insert into CITIES values('Phoenix', 'Arizona', 1198064, -112.07, 33.45);
+insert into CITIES values('LittleRock', 'Arkansas', 175303, -92.28, 34.75);
+insert into CITIES values('Sacramento', 'California', 404168, -121.49, 38.59);
+insert into CITIES values('Denver', 'Colorado', 499055, -105.08, 39.69);
+insert into CITIES values('Hartford', 'Connecticut', 131523, -72.67, 41.79);
+insert into CITIES values('Dover', 'Delaware', 30369, -75.49, 39.16);
+insert into CITIES values('CorpusChristi', 'Texas', 320434, -97.39, 27.80);
+insert into CITIES values('Galveston', 'Texas', 49608, -94.79, 29.30);
+insert into CITIES values('Penascola', 'Florida', 53068, -87.24, 30.43);
+insert into CITIES values('Tampa', 'Florida', 358699, -82.45, 27.96);
+insert into CITIES values('Tampico', 'Tamaulipas', 300000, -97.86, 22.23);
+insert into CITIES values('Heroica Veracruz', 'Veracruz', 500000, -96.13, 19.17);
+insert into CITIES values('Coatzacoalcos', 'Veracruz', 280263, -94.45, 18.13);
+insert into CITIES values('Ciudad del Carmen', 'Campeche', 169466, -97.86, 22.23);
+insert into CITIES values('Austin', 'Texas', 931830, -97.44, 30.16);
+insert into CITIES values('Indianapolis', 'Indiana', 853173, -86.90, 39.46);
+insert into CITIES values('Columbus', 'Ohio', 850106, -82.59, 39.59);
+insert into CITIES values('Boston', 'Massachusetts', 667137, -71.03, 42.21);
+insert into CITIES values('Nashville', 'Tennessee', 654610, -86.47, 36.10);
+insert into CITIES values('Oklahoma City', 'Oklahoma', 631346, -97.32, 35.28);
+insert into CITIES values('Washington', 'District of Columbia', 672228, -77.00, 38.54);
+
+
+--------------------------WATER_BODIES_TABLE------------------------------------------
+
+insert into WATER_BODIES values('GulfOfMexico', 'S');
+insert into WATER_BODIES values('GulfOfAlaska', 'S');
+insert into WATER_BODIES values('BeaufortSea', 'S');
+insert into WATER_BODIES values('AtlanticOcean', 'O');
+insert into WATER_BODIES values('PacificOcean', 'O');
+insert into WATER_BODIES values('GreatLakes', 'L');
+
+
+--------------------------WB_STATES_TABLE------------------------------------------
+
+insert into WB_STATES values('AtlanticOcean', 'Georgia');
+insert into WB_STATES values('AtlanticOcean', 'Florida');
+insert into WB_STATES values('AtlanticOcean', 'Maine');
+insert into WB_STATES values('AtlanticOcean', 'New Hampshire');
+insert into WB_STATES values('AtlanticOcean', 'Massachusetts');
+insert into WB_STATES values('AtlanticOcean', 'Rhode Island');
+insert into WB_STATES values('AtlanticOcean', 'Connecticut');
+insert into WB_STATES values('AtlanticOcean', 'New York');
+insert into WB_STATES values('AtlanticOcean', 'New Jersey');
+insert into WB_STATES values('AtlanticOcean', 'Delaware');
+insert into WB_STATES values('AtlanticOcean', 'Maryland');
+insert into WB_STATES values('AtlanticOcean', 'Virginia');
+insert into WB_STATES values('AtlanticOcean', 'North Carolina');
+insert into WB_STATES values('AtlanticOcean', 'South Carolina');
+insert into WB_STATES values('AtlanticOcean', 'Nova Scotia');
+insert into WB_STATES values('AtlanticOcean', 'New Brunswick');
+insert into WB_STATES values('AtlanticOcean', 'Qebec');
+insert into WB_STATES values('AtlanticOcean', 'Nova Scotia');
+insert into WB_STATES values('GulfOfMexico', 'Florida');
+insert into WB_STATES values('GulfOfMexico', 'Louisiana');
+insert into WB_STATES values('GulfOfMexico', 'Mississippi');
+insert into WB_STATES values('GulfOfMexico', 'Tamaulipas');
+insert into WB_STATES values('GulfOfMexico', 'Veracruz');
+insert into WB_STATES values('GulfOfMexico', 'Campeche');
+insert into WB_STATES values('GulfOfMexico', 'Tabasco');
+insert into WB_STATES values('PacificOcean', 'Alaska'); 
+insert into WB_STATES values('PacificOcean', 'Washington'); 
+insert into WB_STATES values('PacificOcean', 'Oregon'); 
+insert into WB_STATES values('PacificOcean', 'California'); 
+insert into WB_STATES values('PacificOcean', 'Baja California'); 
+insert into WB_STATES values('PacificOcean', 'Baja California Sur'); 
+insert into WB_STATES values('GulfOfAlaska', 'Alaska'); 
+insert into WB_STATES values('GulfOfMexico', 'Texas');
+insert into WB_STATES values('PacificOcean', 'BritishColumbia'); 
+insert into WB_STATES values('BeaufortSea', 'Alaska');
+insert into WB_STATES values('BeaufortSea', 'Yukon');
+
+--------------------------S_C_NEIGHBOURS_TABLE------------------------------------------
+
+insert into S_C_NEIGHBOURS values('Texas', 'Mexico');
+insert into S_C_NEIGHBOURS values('New Mexico', 'Mexico');
+insert into S_C_NEIGHBOURS values('Arizona', 'Mexico');
+insert into S_C_NEIGHBOURS values('California', 'Mexico');
+insert into S_C_NEIGHBOURS values('Washington', 'Canada');
+insert into S_C_NEIGHBOURS values('Montana', 'Canada');
+insert into S_C_NEIGHBOURS values('Alaska', 'Canada');
+insert into S_C_NEIGHBOURS values('North Dakota', 'Canada');
+insert into S_C_NEIGHBOURS values('Minnesota', 'Canada');
+insert into S_C_NEIGHBOURS values('Wisconsin', 'Canada');
+insert into S_C_NEIGHBOURS values('Michigan', 'Canada');
+insert into S_C_NEIGHBOURS values('New York', 'Canada');
+insert into S_C_NEIGHBOURS values('Vermont', 'Canada');
+insert into S_C_NEIGHBOURS values('Maine', 'Canada');
+insert into S_C_NEIGHBOURS values('Chihuahua', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Sonora', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('NuevoLeon', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Baja California', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Coahuila', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Tamaulipas', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('BritishColumbia', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Alberta', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Saskatchewan', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Manitoba', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Ontario', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Manitoba', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Quebec', 'UnitedStates');
+insert into S_C_NEIGHBOURS values('Yukon', 'UnitedStates');
+
+--------------------------S_POP_HIST_TABLE------------------------------------------
+
+
+insert into S_POP_HIST values('Washington', 2013, 6971406);
+insert into S_POP_HIST values('California', 2013, 38332521);
+insert into S_POP_HIST values('Texas', 2013, 26448193);
+insert into S_POP_HIST values('New York', 2013, 19651127);
+insert into S_POP_HIST values('Florida', 2013, 19552860);
+insert into S_POP_HIST values('Illinois', 2013, 12882135);
+insert into S_POP_HIST values('Pennsylvania', 2013, 12773801);
+insert into S_POP_HIST values('Alberta', 2007, 3512368);
+insert into S_POP_HIST values('BritishColumbia', 2007, 4428356);
+
+--------------------------WB_CONTINENTS_TABLE------------------------------------------
+
+insert into WB_CONTINENTS values('GulfOfMexico', 'NorthAmerica');
+insert into WB_CONTINENTS values('AtlanticOcean', 'NorthAmerica'); 
+insert into WB_CONTINENTS values('PacificOcean', 'NorthAmerica'); 
+insert into WB_CONTINENTS values('GreatLakes', 'NorthAmerica');
+insert into WB_CONTINENTS values('GulfOfAlaska', 'NorthAmerica');
+insert into WB_CONTINENTS values('BeaufortSea', 'NorthAmerica');
+
+
+
+
+
+--------------------------WB_COUNTRIES_TABLE------------------------------------------
+
+insert into WB_COUNTRIES values('GulfOfMexico', 'UnitedStates');
+insert into WB_COUNTRIES values('GulfOfMexico', 'Mexico');
+insert into WB_COUNTRIES values('GulfOfAlaska', 'UnitedStates');
+insert into WB_COUNTRIES values('GulfOfAlaska', 'Canada'); 
+
+----------Not happening the following ------------------------------------
+insert into WB_CONTINENTS values('AtlanticOcean', 'UnitedStates'); 
+insert into WB_CONTINENTS values('AtlanticOcean', 'Mexico'); 
+insert into WB_CONTINENTS values('AtlanticOcean', 'Canada'); 
+insert into WB_CONTINENTS values('PacificOcean', 'UnitedStates'); 
+insert into WB_CONTINENTS values('PacificOcean', 'Mexico'); 
+insert into WB_CONTINENTS values('PacificOcean', 'Canada'); 
+insert into WB_CONTINENTS values('BeaufortSea', 'UnitedStates'); 
+insert into WB_CONTINENTS values('BeaufortSea', 'Canada');
+
+
+
+--------------------------WB_CITIES_TABLE------------------------------------------
+
+insert into WB_CITIES values('GulfOfMexico', 'Galveston', 'Texas');
+insert into WB_CITIES values('GulfOfMexico', 'Penascola', 'Florida');
+insert into WB_CITIES values('GulfOfMexico', 'Tampa', 'Florida');
+insert into WB_CITIES values('GulfOfMexico', 'Corpus Christi', 'Texas');
+insert into WB_CITIES values('GulfOfMexico', 'Tampico', 'Tamaulipas');
+insert into WB_CITIES values('GulfOfMexico', 'Heroica Veracruz', 'Veracruz');
+insert into WB_CITIES values('GulfOfMexico', 'Campeche', 'Campeche');
+insert into WB_CITIES values('GulfOfMexico', 'Coatzacoalcos', 'Veracruz');
+insert into WB_CITIES values('GulfOfMexico', 'Ciudad del Carmen', 'Campeche');
+ 
+
+
+
+
+--------------------------S_S_NEIGHBOURS_TABLE------------------------------------------
+
+insert into S_S_NEIGHBOURS values('Texas', 'Oklahoma');
+insert into S_S_NEIGHBOURS values('Oklahoma', 'Kansas');
+insert into S_S_NEIGHBOURS values('Kansas', 'Missouri');
+insert into S_S_NEIGHBOURS values('Utah', 'Colorado');
+insert into S_S_NEIGHBOURS values('Arizona', 'New Mexico');
+insert into S_S_NEIGHBOURS values('Arizona', 'California');
+insert into S_S_NEIGHBOURS values('California', 'Oregon');
+insert into S_S_NEIGHBOURS values('Minnesota', 'Manitoba');
+insert into S_S_NEIGHBOURS values('Minnesota', 'Ontario');
+insert into S_S_NEIGHBOURS values('Manitoba', 'Minnesota');
+insert into S_S_NEIGHBOURS values('Ontario', 'Minnesota');
+

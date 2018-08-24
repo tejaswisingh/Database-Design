@@ -1,0 +1,232 @@
+3.A Which states in the USA share a border with Mexico?
+
+QUERY - 
+
+select s.State from States s, S_C_NEIGHBOURS c where c.Neighbour= 'Mexico'
+and s.State=c.State and s.Country='UnitedStates';
+
+RESULT -
+
+STATE
+----------------------------------------
+Arizona
+California
+Texas
+New Mexico
+------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+
+3.B Which states in Canada share a border with Minnesota?
+
+QUERY - 
+
+select s.state from states s, S_S_NEIGHBOURS ss where ss.neighbour=s.state and ss.state='Minnesota' and s.country='Canada';
+   
+
+RESULT - 
+
+STATE
+----------------------------------------
+Manitoba
+Ontario
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3.C Which are the cities in the database that are on the “Gulf of Mexico” (i.e. adjacent to)?
+
+QUERY - 
+
+Select c.City from WB_CITIES c where c.WBName='GulfOfMexico';
+
+
+RESULT -
+
+CITY
+----------------------------------------
+Ciudad del Carmen
+Coatzacoalcos
+Galveston
+Heroica Veracruz
+Penascola
+Tampa
+Tampico
+
+7 rows selected.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3.D  For the USA and Mexico, give the country name and the number of states in each country.
+
+QUERY - 
+
+SELECT Country,Count(*) AS Total_NoOfStates from states where Country='UnitedStates' OR Country='Mexico' GROUP By Country;
+
+
+RESULT - 
+
+COUNTRY                                  TOTAL_NOOFSTATES
+---------------------------------------- ----------------
+UnitedStates                                           51
+Mexico                                                 30
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3.E  List all states in the USA whose capital city has a population of more that 500,000.
+
+QUERY - 
+
+select c.State from STATES s,CITIES c where c.population > 500000 and
+c.City=s.CapitalCity and s.State=c.State and s.Country= 'UnitedStates';
+
+RESULT - 
+
+STATE
+----------------------------------------
+Arizona
+Indiana
+Texas
+Massachusetts
+Ohio
+Oklahoma
+Tennessee
+
+7 rows selected.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3.F List the names of all states in the USA that are neither adjacent to Mexico nor to Canada.
+
+QUERY - 
+
+Select S.State from STATES s where s.State NOT IN ( Select c.State from
+S_C_NEIGHBOURS c ) and s.Country = 'UnitedStates';
+
+
+RESULT - 
+
+STATE
+----------------------------------------
+Illinois
+Idaho
+Virginia
+Hawaii
+Arkansas
+Florida
+Georgia
+Colorado
+Wyoming
+South Carolina
+Kansas
+
+STATE
+----------------------------------------
+Oklahoma
+North Carolina
+Missouri
+Nevada
+Oregon
+New Jersey
+Nebraska
+Alabama
+South Dakota
+Pennsylvania
+Delaware
+
+STATE
+----------------------------------------
+DistrictOfColumbia
+Mississippi
+Massachusetts
+West Virginia
+Ohio
+Tennessee
+Louisiana
+Kentucky
+Utah
+Connecticut
+Rhode Island
+
+STATE
+----------------------------------------
+Indiana
+Maryland
+Iowa
+New Hampshire
+
+37 rows selected.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3.G List all states in the USA that are not adjacent to any sea or ocean.
+
+QUERY - 
+
+select State from STATES where Country='UnitedStates' and State NOT In
+(select State from WB_STATES);
+
+STATE
+----------------------------------------
+Illinois
+Idaho
+Wisconsin
+Hawaii
+Arkansas
+Colorado
+Wyoming
+Kansas
+Oklahoma
+Missouri
+Nevada
+
+STATE
+----------------------------------------
+Nebraska
+North Dakota
+Vermont
+Arizona
+Montana
+Alabama
+South Dakota
+Pennsylvania
+DistrictOfColumbia
+New Mexico
+Michigan
+
+STATE
+----------------------------------------
+West Virginia
+Ohio
+Tennessee
+Kentucky
+Utah
+Indiana
+Minnesota
+Iowa
+
+30 rows selected.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+3.H Which states have a population greater than “Texas”? 
+
+QUERY - 
+
+select DISTINCT P.state from S_POP_HIST P where P.population >(SELECT P.population from S_POP_HIST P WHERE P.state='Texas');
+
+
+RESULT - 
+
+STATE
+----------------------------------------
+California
+
+
+SPOOL OFF; 
